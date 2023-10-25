@@ -1,0 +1,107 @@
+body {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 15px;
+	line-height: 1.5;
+	margin:0;
+	padding:0;
+	background-color:white;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+/*Website Global*/
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+header{
+	background:lightgray;
+	padding-top:15px;
+	min-height:50px;
+	border-bottom:darkred 5px solid;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	position:sticky;
+	width:100%;
+ }
+
+ header h1{
+	font-size:50px;
+ }
+
+ header a{
+	color:#D20D00;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 25px;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+ }
+
+ header ul{
+	margin:0;
+	padding:0;
+ }
+
+ header li{
+	float:left;
+	display:inline;
+	padding: 0 10px 0 10px;
+ }
+
+ header #brandname{
+	float:left;
+ }
+
+ header #brandname h1{
+	margin:0;
+ }
+
+ header nav{
+	float:right;
+	margin-top:10px;
+ }
+
+ header .hightlight, header .current a{
+	color:orangered;
+	font-weight:bold;
+ }
+
+ header a:hover{
+	color:rgb(252, 58, 58);
+	font-weight: bold;
+ }
+ 
+ #aboutus h1{
+	font-size: 70px;
+	text-align:center;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color:darkred;
+ }
+
+ #aboutus p{
+	text-align:center;
+	font-size: 20px;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ #aboutus img{
+	float:right;
+ }
+
+ footer{
+	padding-top: 10px;
+	background:lightgray;
+	border-top: darkred 5px solid;
+	font-size:30px;
+	text-align:center;
+	border-bottom: darkred 5px solid;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	margin-top: 100px
+ }

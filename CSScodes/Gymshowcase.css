@@ -1,0 +1,183 @@
+body {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 15px;
+	line-height: 1.5;
+	margin:0;
+	padding:0;
+	background-color:white;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+/*Website Global*/
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+header{
+	background:lightgray;
+	padding-top:15px;
+	min-height:50px;
+	border-bottom:darkred 5px solid;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	position:sticky;
+	top: 0;
+ }
+
+ header h1{
+	font-size:50px;
+ }
+
+ header a{
+	color:#D20D00;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 25px;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+ }
+
+ header ul{
+	margin:0;
+	padding:0;
+ }
+
+ header li{
+	float:left;
+	display:inline;
+	padding: 0 10px 0 10px;
+ }
+
+ header #brandname{
+	float:left;
+ }
+
+ header #brandname h1{
+	margin:0;
+ }
+
+ header nav{
+	float:right;
+	margin-top:10px;
+ }
+
+ header .hightlight, header .current a{
+	color:orangered;
+	font-weight:bold;
+ }
+
+ header a:hover{
+	color:rgb(252, 58, 58);
+	font-weight: bold;
+ }
+ /*ALL HEADER STUFF*/
+
+ #gym1{
+	margin-top: 5px;
+	background: rgb(223, 224, 225);
+	border-top: darkred 2px solid;
+	border-bottom: darkred 2px solid;
+	text-align: center;
+ }
+
+ #gym1 h1{
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 30px;
+	color: black
+ }
+
+ #gym1 p{
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size:20px;
+ }
+
+ #gym2{
+	margin-top: 5px;
+	background: rgb(223, 224, 225);
+	border-top: darkred 2px solid;
+	border-bottom: darkred 2px solid;
+	text-align: center;
+ }
+
+ #gym2 h1{
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 30px;
+	color: black
+ }
+
+ #gym2 p{
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size:20px;
+ }
+
+ #gym3{
+	margin-top: 5px;
+	background: rgb(223, 224, 225);
+	border-top: darkred 2px solid;
+	border-bottom: darkred 2px solid;
+	text-align: center;
+ }
+
+ #gym3 h1{
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 30px;
+	color: black
+ }
+
+ #gym3 p{
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size:20px;
+ }
+
+ #gym4{
+	margin-top: 5px;
+	background: rgb(223, 224, 225);
+	border-top: darkred 2px solid;
+	border-bottom: darkred 2px solid;
+	text-align: center;
+ }
+
+ #gym4 h1{
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 30px;
+	color: black
+ }
+
+ #gym4 p{
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size:20px;
+ }
+
+
+ footer{
+	padding-top: 10px;
+	background:lightgray;
+	border-top: darkred 5px solid;
+	margin-top: 5px;
+	font-size:30px;
+	text-align:center;
+	border-bottom: darkred 5px solid;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	bottom:0;
+	width:100%;
+ }
+
+ .Imageshowcase h2{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 30px;
+ }
+ 
+ .facebookbuttons{
+	background-color: rgb(33, 40, 175);
+	border:none;
+	padding: 10px 10px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color:white;
+	font-size: 20px;
+ }
+
+ 

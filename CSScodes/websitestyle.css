@@ -1,0 +1,150 @@
+body {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 15px;
+	line-height: 1.5;
+	margin:0;
+	padding:0;
+	background-color:white;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+/*Website Global*/
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+header{
+	background:lightgray;
+	padding-top:15px;
+	min-height:50px;
+	height:75px;
+	top: 0;
+	border-bottom:darkred 5px solid;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	width:100%;
+	position:sticky;
+ }
+
+ header h1{
+	font-size:50px;
+ }
+
+ header a{
+	color:#D20D00;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 25px;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+ }
+
+ header ul{
+	margin:0;
+	padding:0;
+ }
+
+ header li{
+	float:left;
+	display:inline;
+	padding: 0 10px 0 10px;
+ }
+
+ header #brandname{
+	float:left;
+ }
+
+ header #brandname h1{
+	margin:0;
+ }
+
+ header nav{
+	float:right;
+	margin-top:10px;
+ }
+
+ header .hightlight, header .current a{
+	color:orangered;
+	font-weight:bold;
+ }
+
+ header a:hover{
+	color:rgb(252, 58, 58);
+	font-weight: bold;
+ }
+ /*ALL HEADER STUFF*/
+
+ /*BACKGROUND SHOWCASE??*/
+ #showcase{
+	min-height: 600px;
+	background:url(../Images/showcaseimage.jpg) no-repeat 0 -50px;
+	text-align:center;
+	color:white;
+ }
+
+ #showcase h1{
+	margin-top:150px;
+	font-size:70px;
+	margin-bottom:20px;
+ }
+
+ #showcase p{
+	font-size:30px;
+	font-family:Verdana, Geneva, Tah	oma, sans-serif;
+ }
+
+ #email{
+	padding:10px;
+	border-top: darkred 5px solid;
+	border-bottom: darkred 5px solid;
+	background-color:lightgray;
+	text-align: center;
+ }
+
+ #boxes{
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px
+ }
+
+ #boxes h3{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size:30px;
+ }
+
+ #boxes p{
+	font-size:20px;
+	font-weight:bold
+ }
+
+ #boxes a{
+	font-size:40px;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color:#D20D00;
+	text-transform: uppercase;
+ }
+
+ #boxes a:hover{
+	color:darkred;
+	font-weight:bolder;
+	font-size:50px;
+ }
+
+ footer{
+	padding-top:10px;
+	background:lightgray;
+	border-top: darkred 5px solid;
+	font-size:30px;
+	text-align:center;
+	border-bottom: darkred 5px solid;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	position:absolute;
+	height:200px;
+	width:100%;
+ }
+
+ 
